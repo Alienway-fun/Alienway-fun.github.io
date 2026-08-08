@@ -50,37 +50,6 @@ The Connection Engine is the project’s unifying idea: a system designed to pre
 - **Iteration is the medium.** Every result should be a starting point for further direction.
 - **Responsible by design.** Consent, provenance, privacy, and transparent use of generated media belong in the product foundation.
 
-## Repository status
-
-This repository currently hosts the Alienway.FUN landing page as a self-contained static artifact:
-
-```text
-.
-├── index.html   # Bundled site, runtime, fonts, imagery, and video
-└── README.md    # Project vision and repository guide
-```
-
-There is no build step or application backend in this repository. The production product and Connection Engine are not published here.
-
-## Run locally
-
-You can open `index.html` directly, or serve the directory with any static HTTP server:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit [http://localhost:8000](http://localhost:8000).
-
-Because the page bundles its media and runtime into one file, the initial download is intentionally large. A modern browser with JavaScript enabled is required.
-
-## Contributing
-
-Alienway is still defining its public development and contribution model. For now, issues and discussions are welcome when they identify a concrete problem, accessibility improvement, performance opportunity, or thoughtful direction aligned with the project vision.
-
-Before proposing substantial implementation work, please open an issue so scope and intent can be aligned. Product roadmap details, model architecture, datasets, and deployment infrastructure are outside the scope of this repository unless explicitly added later.
-
-## License
 
 No open-source license has been declared yet. Until one is added, the repository contents remain subject to the copyright of their respective owner(s); public availability does not grant permission to reuse, redistribute, or modify them.
 
